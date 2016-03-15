@@ -39,6 +39,7 @@ while [ $# -gt 0 ]; do
     -d )  # -d option is for dice 
         if [[ "$2" =~ ^[1-5]$ ]]; then
             dices=$2
+            shift
         else
             echo "I wanted a number after the -c, from 1 to 5. CYA Bozo!"
             exit 2
@@ -48,14 +49,17 @@ while [ $# -gt 0 ]; do
         if [[ "$2" =~ ^[1-9][0-9]*$ ]]; then
             if [ "$2" -ge 4 -a "$2" -le 20 ]; then
                 sides=$2
+                shift
             else
                 echo "I wanted a number after the -s, from 4 to 20. CYA Bozo!"
                 exit 2
             fi
         fi
        ;;
-    *)
+       
+    * )
         echo "type -h or --help to get help"
+        exit 1
        ;;
      
     esac

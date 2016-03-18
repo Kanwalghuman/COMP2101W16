@@ -1,11 +1,11 @@
 #!/bin/bash
-# this script displays how many files are in ~/Pictures,
-#    how much space they use, and the sizes and names of the 3 largest files
+# this script displays how many files are in ~/Directory,
+#    how much space they use, and the sizes and names of the number of largest files
 
 #default directory
 dir=~/Pictures
 
-defult number
+#defult number
 temp=3
 
 

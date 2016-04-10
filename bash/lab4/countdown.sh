@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Harkanwaljit Singh
+#Student# 200307359
+
 # This script demonstrates how to trap signals and handle them using functions
 
 #### Functions

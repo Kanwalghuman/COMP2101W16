@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Harkanwaljit Singh
+#Student# 200307359
+
 # this script gets 2 numbers from the user
 #   a count of dice and a count of sides per die it prints out the results of rolling those dice Variables
 ###########

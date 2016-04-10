@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Harkanwaljit Singh
+#Student# 200307359Bas
+
 # this script enumerates our 2 interfaces and
 #   displays their configured IPV4 addresses as well as 
 # default route information Variables

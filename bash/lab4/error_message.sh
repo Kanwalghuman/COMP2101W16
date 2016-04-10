@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Harkanwaljit Singh
+#Student# 200307359
+
 # This script have a error fuction which sents arguments 
 # from command line and  send that that to STDERR
 

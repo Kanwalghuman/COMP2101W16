@@ -1,4 +1,8 @@
 #!/bin/bash
+
+#Harkanwaljit Singh
+#Student# 200307359
+
 # this script displays how many files are in ~/Directory,
 #    how much space they use, and the sizes and names of the number of largest files
 
